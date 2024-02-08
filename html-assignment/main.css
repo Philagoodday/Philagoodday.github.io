@@ -1,0 +1,47 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+body header,footer{
+    background-color: antiquewhite;
+}
+body .title{
+    color: rgb(13, 26, 122);
+}
+
+#myself{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 2px 1px rgb(0, 0, 0);
+}
+
+#hobbies :nth-child(2n-1){
+    background-color: rgb(248, 255, 187);
+}
+
+.links:hover{
+    color:rgb(243, 26, 26)
+}
+
+.links{
+    background-color: rgb(147, 230, 255);
+    list-style-type: none;
+    border-style: solid;
+}
+
+
+
+.links:link{
+    color:rgb(255, 255, 255)
+}
+
+.links:visited {
+    color:red;
+  }
+
+.links:active {
+    color: rgb(0, 0, 0)
+  }
+

@@ -4,14 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chuhong Feng Homepage</title>
+    <link href="main.css" rel="stylesheet"
 </head>
 <body>
     <header>
-        <h1>Chuhong Feng</h1>
+        <h1 class="title">Chuhong Feng</h1>
         <nav>
             <ul>
-                <li>
-                    <a href="notes.html" target="_blank">Notes</a>
+                <li class="links">
+                    <a style="text-decoration: none;"  href="notes.html" target="_blank">Notes</a>
+                </li>
+                <li  class="links">
+                    <a style="text-decoration: none;" href="http//:www.google.com" target="_blank">Google</a>
                 </li>
             </ul>
         </nav>
@@ -27,24 +31,21 @@
             My name is Chuhong Feng. I come from <abbr title="China"> CN </abbr>I'm the 1<sup>st</sup> kid in my family. I'm 23 years old. I was born in a small city called <em>Chongqing</em>. It's a mountain city, people live in the mountains. We usually eat hotpot. Because the chilli in the hotpot could help us dismiss the humid. We have two rivers around our downtown, called Long River and Jialing River. So that we have to eat spicy food to keep our body warmer.
         </p>
         <h4>Here is my hobbies</h4>
-        <ol>
-            <li>
-                Music
-            </li>
-            <li>
-                Skiing
-            </li>
-            <li>
-                Movies
-            </li>
-            <li>
-                Photographs
-            </li>
-            <li>
-                Web development
-            </li>
-        </ol>
-        <img src="images/grosstuff.jpg" alt="chuhong_feng" height="300" width="200">
+        <div class="list">
+            <ol id="hobbies">
+                <li>Music</li>
+                <li>Skiing</li>
+                <li>Movies</li>
+                <li>Photographs</li>
+                <li>Web development</li>
+            </ol>
+            <ul class="list" style="list-style-type: square;">
+                <li>123</li>
+                <li>456</li>
+                <li>789</li>
+            </ul>
+        </div>
+        <img id="myself" src="images/grosstuff.jpg" alt="chuhong_feng" height="300" width="200">
        
         <P>
             I usually shoot some photographs in the streets. Include different people, places, and cultures. These photoes can express many emotions: pain, peace, or happiness. I like to dive into these street vibes. It helps me to release my stress. When you forget yourself, feel other people's emotions, then you'll experience a new life.
@@ -53,6 +54,8 @@
         <blockquote>
             I have a dream that one day every valley shall be engulfed, every hill shall be exalted and every mountain shall be made low, the rough places will be made plains and the crooked places will be made straight and the glory of the Lord shall be revealed and all flesh shall see it together. This is our hope. -<cite>Martin Luther King</cite>
         </blockquote>
+
+        <a href="#">Scroll to Top</a>
     </main>
     <hr>
 
