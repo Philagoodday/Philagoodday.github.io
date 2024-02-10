@@ -6,11 +6,11 @@ body{
 body header,footer{
     background-color: antiquewhite;
 }
-body .title{
+.title{
     color: rgb(13, 26, 122);
 }
 
-#myself{
+#my-image{
     display: block;
     margin-left: auto;
     margin-right: auto;
