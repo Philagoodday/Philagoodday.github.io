@@ -22,7 +22,7 @@ body header,footer{
 }
 
 .links:hover{
-    color:rgb(243, 26, 26)
+    background-color:brown
 }
 
 .links{
@@ -33,15 +33,12 @@ body header,footer{
 
 
 
-.links:link{
-    color:rgb(255, 255, 255)
-}
+/* .links:link{ */
+    /* color:rgb(255, 255, 255)} */
 
-.links:visited {
-    color:red;
-  }
+/* .links:visited { */
+    /* color:red;} */
 
-.links:active {
-    color: rgb(0, 0, 0)
-  }
+/* .links:active { */
+    /* color: rgb(0, 0, 0)} */
 
