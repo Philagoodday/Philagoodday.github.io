@@ -21,7 +21,6 @@ body{
 main{
 
     background-color: rgb(177, 210, 233);
-    height: ;
     border: 2px solid;
     position: absolute;
     width: 1025px;
@@ -71,4 +70,29 @@ main{
     margin: 10px;
     padding: 10px;
     border: 1px solid;
+}
+
+.interact{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 0px;
+}
+
+.inputbar{
+    position: relative;
+    align-self: center;
+    width: 970px;
+    background-color: rgba(98, 255, 0, 0.175)  ;
+}
+
+.inputbar::placeholder{
+    color: red;
+}
+
+#largeinput {
+    position: relative;
+    align-self: center;
+    width: 970px;
+    height: 300px;
+    background-color: rgba(251, 255, 129, 0.318);
 }
