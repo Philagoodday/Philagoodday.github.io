@@ -1,0 +1,74 @@
+body{
+    background-color:#aad4cf;
+}
+
+.starfishtitle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    font-family: Arial, sans-serif;
+}
+
+
+.textandimage{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+main{
+
+    background-color: rgb(177, 210, 233);
+    height: ;
+    border: 2px solid;
+    position: absolute;
+    width: 1025px;
+    left: 17.5%;
+}
+
+.navi{
+    padding: 110px;
+    display: inline;
+    text-align: center;
+}
+
+/* all  align is done, time to add content */
+
+.neirong{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:30px;
+    color: black;
+}
+
+#lifeofstarfish{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 10px;
+}
+
+#squarefish{
+    width: 200px;
+    height: 200px;
+    padding: 3px;
+    float: left;
+}
+
+#factsaboutstarfish{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding: 10px;
+}
+
+#learnmore{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding: 10px;
+}
+
+#grid{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid;
+}
