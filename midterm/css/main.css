@@ -25,6 +25,7 @@ main{
     position: absolute;
     width: 1025px;
     left: 17.5%;
+    right: 17%.5;
 }
 
 .navi{
@@ -95,4 +96,15 @@ main{
     width: 970px;
     height: 300px;
     background-color: rgba(251, 255, 129, 0.318);
+}
+
+button{
+    position: relative;
+    left:90%
+}
+
+footer{
+    padding: 5px;
+    position: relative;
+    left: 80%;
 }
