@@ -1,0 +1,17 @@
+.navibar{
+    position: absolute;
+    background-color: rgba(90, 88, 74, 0.773);
+    font-size: 20px;
+    padding: 10px;
+    left: 20px;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Arial, sans-serif;
+    width: 100vb;
+}
+
+.navi{
+    display: inline;
+    padding: 10px;
+}
