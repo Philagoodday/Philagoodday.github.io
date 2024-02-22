@@ -1,17 +1,25 @@
 .navibar{
-    position: absolute;
-    background-color: rgba(90, 88, 74, 0.773);
+    margin: 0px;
+    border: 0px;
+    position: relative;
+    background-color: rgba(39, 34, 0, 0.897);
     font-size: 20px;
-    padding: 10px;
-    left: 20px;
-    top: 15%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    padding: 50px;
+    /* DONT USE "align-items: center; "  It makes your navbar small I dont know why, but now it's good*/
     font-family: Arial, sans-serif;
-    width: 100vb;
+    width: 200vh;
 }
 
 .navi{
     display: inline;
-    padding: 10px;
+    padding: 20px;
+}
+
+.homepage:hover{
+ 
+    background-color: coral;
+}
+
+.homepage {
+    color: darkgreen;
 }
