@@ -1,5 +1,6 @@
 *{
     margin: 0px;
+    padding: 0px;
 }
 
 nav{
@@ -140,12 +141,13 @@ section div a:hover{
 /* my plan is set SECTION first then I can adjust the yellow part, the background, and insert image and div the text part */
 
 #aboutus{
-    background-color: burlywood;
+    background-color: rgb(248, 226, 148);
     position: absolute;
     margin: 0px;
     border: 0px;
     padding: 0px;
     width: 1519px;
+    height: 370px;
 
 }
 
@@ -160,7 +162,7 @@ section div a:hover{
 
 #aboutustext{
     position: relative;
-    top:30px;
+    top:15px;
 }
 
 section h2{
@@ -172,6 +174,23 @@ section h2{
 /* NEXT PAGE, I gonna div 5 parts and align them, mind clear */
 
 #ourservices{
+    position:relative;
+    background-color: rgba(18, 103, 20, 0.729);
+    top:370px ;
+    width: 75%;
+    left: 12.5%;
+    height: 500px;
+}
+
+#ourservices h3{
+    font-size: 60px;
+}
+
+.firstline{
+    width: 100px;
+    height: 100px;
+    border: 3px solid;
+    float: left;
     position: relative;
-    background-color: blue;
+    left: 40%;
 }
