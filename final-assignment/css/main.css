@@ -1,25 +1,100 @@
+*{
+    margin: 0px;
+}
+
+nav{
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+    position: relative;
+    font-size: 22px;
+    height: 160px;
+}
+
+#logoimage{
+    scale: 80%;
+    position: absolute;
+    left: 7%;
+    
+}
+
 .navibar{
+    position: relative;
     margin: 0px;
     border: 0px;
-    position: relative;
-    background-color: rgba(39, 34, 0, 0.897);
-    font-size: 20px;
-    padding: 50px;
-    /* DONT USE "align-items: center; "  It makes your navbar small I dont know why, but now it's good*/
-    font-family: Arial, sans-serif;
-    width: 200vh;
+    padding: 0px;
 }
 
 .navi{
-    display: inline;
+    position: relative;
+    float: left;
     padding: 20px;
+    width: 130px;
 }
 
-.homepage:hover{
- 
-    background-color: coral;
+/* control fontype color */
+nav div a{
+    color: rgb(254, 209, 104);
 }
 
-.homepage {
-    color: darkgreen;
+/* the problem as same as the searchbar, there is a big gap, items side by side can't connect with each other */
+nav div a:hover{
+    position:sticky;
+    padding: 30px;
+    color: black;
+    background-color: rgb(255, 204, 116);
+    margin: 0px;
+    border: 0px;
+    
+}
+
+#positioncontrol{
+    position: absolute;
+    top: 50px;
+    left: 22.5%;
+}
+
+.serchbar{
+    scale: 120%;
+    height: 30px;
+    position: absolute;
+    left: 78%;
+    top: 67px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+nav div input{
+   
+}
+
+nav div input, button{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    height: 30px;
+}
+
+/* ---------------------banner--------------------------- */
+#mainbanner{
+   background-color: blue;
+   width: 1519px;
+   height: 100vp;
+   object-fit:fill; 
+}
+
+/* first ID black box, set its width and height. make format standard look like mock-up */
+#blackbox{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+    position: absolute;
+    width: 1000px;
+    height: 750px;
+    background-color: rgba(0, 0, 0, 0.652);
+    left:30%;
+    top:50%;
+}
+
+section div h1{
+    font-size: 60px;
 }
