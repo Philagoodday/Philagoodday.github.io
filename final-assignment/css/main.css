@@ -10,10 +10,14 @@ nav{
     height: 160px;
 }
 
+/* this one is most complex for me, I have to continue adjust the gap between the image and the link and the search bar*/
+/* for these three items, I set margin & border 0px and only set padding, then I can see what's difference from before and after. */
+/* finally, the problem is the space in keyboard, I use the &ubsp; the ABOUT US won't be weird */
+/* the question is I can't identify the property: position:absolute and relative */
 #logoimage{
-    scale: 80%;
+    scale: 88%;
     position: absolute;
-    left: 7%;
+    left: 5%;
     
 }
 
@@ -28,18 +32,25 @@ nav{
     position: relative;
     float: left;
     padding: 20px;
-    width: 130px;
+    width: 120px;
 }
 
 /* control fontype color */
 nav div a{
     color: rgb(254, 209, 104);
+    padding: 30px;
+}
+
+#positioncontrol{
+    position: absolute;
+    top: 50px;
+    left: 20%;
 }
 
 /* the problem as same as the searchbar, there is a big gap, items side by side can't connect with each other */
 nav div a:hover{
-    position:sticky;
-    padding: 30px;
+ 
+ 
     color: black;
     background-color: rgb(255, 204, 116);
     margin: 0px;
@@ -47,11 +58,7 @@ nav div a:hover{
     
 }
 
-#positioncontrol{
-    position: absolute;
-    top: 50px;
-    left: 22.5%;
-}
+
 
 .serchbar{
     scale: 120%;
@@ -78,9 +85,10 @@ nav div input, button{
 /* ---------------------banner--------------------------- */
 #mainbanner{
    background-color: blue;
+   object-fit:cover; 
    width: 1519px;
-   height: 100vp;
-   object-fit:fill; 
+   height: 635px;
+   
 }
 
 /* first ID black box, set its width and height. make format standard look like mock-up */
@@ -88,13 +96,82 @@ nav div input, button{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: aliceblue;
     position: absolute;
-    width: 1000px;
-    height: 750px;
+    width: 1250px;
+    height: 540px;
     background-color: rgba(0, 0, 0, 0.652);
-    left:30%;
-    top:50%;
+    left: 10%;
+    top:30%;
+}
+
+#mainlorem{
+    font-size: 20px;
+    padding: 10px;
 }
 
 section div h1{
-    font-size: 60px;
+    font-size: 95px;
+    padding: 10px;
+}
+
+/* I edit it from position , after I finished the position, I begin to edit the padding and margin finally I edit font */
+section div a{
+    font-size: 28px;
+    color: black;
+    margin: 5px;
+    position: relative;
+    padding: 30px;
+    background-color: rgb(251, 190, 85);
+    left: 1%;
+    top: 43px;
+}
+
+section div a:hover{
+    color: rgb(251, 190, 85);
+    background-color: black;
+}
+/* !!!!!!!!!!!!!!!!!!!!why there is a white line????????????????????????????????????????????????????????????? */
+/* ?????????????????!!!!!!!!!!!!!!!????????????????!!!!!!!!!!!!!!whywhywhywhywhwy???????????????????????????? */
+#homepage{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+/* ---------------------ABOUT US-------------------------------------------------------------- */
+/* my plan is set SECTION first then I can adjust the yellow part, the background, and insert image and div the text part */
+
+#aboutus{
+    background-color: burlywood;
+    position: absolute;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    width: 1519px;
+
+}
+
+#aboutus img{
+    scale: 75%;
+}
+
+#aboutus img, #aboutustext{
+    float: left;
+    width: 50%;
+}
+
+#aboutustext{
+    position: relative;
+    top:30px;
+}
+
+section h2{
+    font-size: 70px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* NEXT PAGE, I gonna div 5 parts and align them, mind clear */
+
+#ourservices{
+    position: relative;
+    background-color: blue;
 }
