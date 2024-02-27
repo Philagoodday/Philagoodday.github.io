@@ -71,9 +71,12 @@ h1{
 }
 
 #grid{
-    margin: 10px;
+    margin: 1px;
     padding: 10px;
     border: 1px solid;
+    width: 970px;
+    position: relative;
+    left: 18px;
 }
 
 .interact{
@@ -85,7 +88,7 @@ h1{
 .inputbar{
     position: relative;
     align-self: center;
-    width: 970px;
+    width: 965px;
     background-color: rgba(98, 255, 0, 0.175)  ;
     border: 1px solid;
 }
@@ -101,7 +104,7 @@ input{
 #largeinput {
     position: relative;
     align-self: center;
-    width: 970px;
+    width: 965px;
     height: 300px;
     background-color: rgba(251, 255, 129, 0.318);
 }
