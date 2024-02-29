@@ -6,15 +6,6 @@ body{
     background-color: rgb(212, 165, 209);
 }
 
- /* header{
-    display:block;
-    text-align: center;
-} 
-
-header img{
-    position: relative;
- }
-
 /* AFter I set body background, I control the main positon and its background */
 main{
     display: block;
@@ -120,7 +111,6 @@ input{
 
 #largeinput {
     position: relative;
-    align-self: center;
     width: 965px;
     height: 250px;
     background-color: rgba(251, 255, 129, 0.318);
