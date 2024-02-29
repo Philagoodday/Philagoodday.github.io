@@ -26,18 +26,28 @@ h1{
 }
 
 /* easy part, make them horizontal and add some space between them */
-.navi{
-    display: inline;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: black;
-    padding: 115px;
+/* I use flex property, because I dont know why "display: inline" doesn't work */
+/* also I can use float property and set it width and padding to get the same effect */
+.neirong nav{
+    display:flex;
+    justify-content: space-around;
+   font-size: 30px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* set border but not the last */
+
+.neirong .navi{
+    border-right: 3px solid #b11b1b;
+    padding:0px 120px;
+
+}
+/* I can't use 
+.navi:last-child{border-right: none;} property  and I don't know why
+ */
+#contact{
+    border-right: none;
 }
 
-
-
-.neirong{
-    font-size: 30px;
-}
 
 
 #lifeofstarfish{
