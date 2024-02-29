@@ -41,8 +41,15 @@ h1{
     padding:0px 120px;
 
 }
-/* I can't use 
-.navi:last-child{border-right: none;} property  and I don't know why
+.neirong a:hover{
+    background-color: rgb(157, 6, 168);
+    color: antiquewhite;
+    
+}
+
+
+/* The property 
+.navi:last-child{border-right: none;} doesn't work  and I don't know why
  */
 #contact{
     border-right: none;
