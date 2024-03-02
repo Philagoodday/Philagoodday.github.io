@@ -87,10 +87,62 @@ nav a:focus{
         position: relative;
         background-color: rgb(241, 166, 4);
         width: auto;
-        padding: 30px;
+        padding: 20px;
         padding-bottom: 100px;
-        padding-right: 70%;
+        padding-right: 75%;
         left: 5%px;
+
+    }
+
+    .smallnav{
+        position: relative;
+        width: 90%;
+        align-items: center;
+        margin: 20px;
+    }
+
+    .mainnav{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    left: 0px;
+    }
+
+    ul li{
+        padding: 12px 0;
+    }
+
+    input{
+        width: 100%;
+        position: relative;
+        left: -20px;
+        border: 0;
+        margin: 0;
+        padding:0;
+        
+        }
+}
+
+
+@media only screen and (max-width:40em){
+    html{
+      font-size: 130%;
+      line-height: 1.7;
+      margin: 15px;
+    }
+
+    header nav img{
+        display: block;
+        position: relative;
+        background-color: rgba(241, 4, 4, 0.548);
+        width: auto;
+        padding: 15px;
+        padding-bottom: 100px;
+        padding-right: 69%;
+        left: 4%;
 
     }
 
@@ -130,3 +182,18 @@ nav a:focus{
 /* ######################################################################################### */
 /* PART II */
 
+#home{
+    border: 5px solid red;
+}
+
+#mainbanner{
+    background-color: blue;
+    object-fit:cover; 
+    width: 100%;
+    height: 635px;
+    float: left;
+}
+
+#blackbox{
+    color: rgb(160, 16, 165);
+}   

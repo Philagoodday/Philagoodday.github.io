@@ -94,7 +94,6 @@ nav div input, button{
 
 /* first ID black box, set its width and height. make format standard look like mock-up */
 #blackbox{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: aliceblue;
     position: absolute;
     width: 1250px;
