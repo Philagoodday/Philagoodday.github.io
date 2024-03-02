@@ -9,13 +9,14 @@
 <body>
     <main> 
         <header>  
- <!-- div for contain image & text. make both at a same layer // class for give them  function specificely-->
+ <!-- div for contain image & text. make both at a same layer // When I give img "absolute" the "h1"will occupy the place where the img at there-->
             <div>
                 <img src="images/wide-starfish.jpg" alt="background">
                 <h1>Lone Starfish</h1>
             </div>
         </header>
-<!-- make three button inline, I use div instead of ul&li, because I use same css property to inline them-->
+<!-- make three button inline, I use div instead of ul&li, because I use same css property to inline them
+by the way "li" can do that,but I used a different tag. I think "div" can be more flexible-->
         <div class="neirong">
             <nav>
                 <div class="navi"><a style="text-decoration: none;" href="../final-assignment/index.html">HOME</a></div>
@@ -23,11 +24,12 @@
                 <div class="navi" id="contact"><a style="text-decoration: none;" href="#contact">CONTACT</a></div>
             </nav>
         </div>
-
+    <!-- get more space -->
     <br>
+    <!-- id can increase weight of font in CSS -->
     <p id="lifeofstarfish">Life of a Starfish</p>
     <div class="wrap">
-<!-- I searched how to warp an image by text  I use div to frame both and set the padding-->
+    <!-- I searched how to warp an image by text in internet. I use div to frame both and set the padding-->
         <img id="squarefish" src="images/starfish.jpg" alt="starfish">
         <p class="description" >Swallower catla Black angelfish grunter striped bass scissor-tail rasbora; slender mola. Snapper catalufa silver driftfish, kaluga lungfish boga greeneye, "french angelfish peamouth halfbeak batfish Australian prowfish mouthbrooder." Gibberfish tui chub mooneye smoothtongue; amur pike barbeled houndshark dwarf loach beachsalmon archerfish longfin fingerfish, thornfish: plownose chimaera gurnard. Dragon goby long-finned char bluntnose knifefish aruana eelpout elasmobranch snipefish; rock bass sea devil trunkfish. Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy. Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra. Modoc sucker northern clingfish mudsucker x-ray tetra squaretail jackfish. Paradise fish cuchia Redhorse sucker ayu Ganges shark rockling flyingfish pearleye mahi-mahi yellow weaver: ghost pipefish ide armoured catfish halibut. Torpedo; leopard danio minnow leatherjacket hardhead catfish wobbegong trench squeaker crestfish, halibut glowlight danio sailback scorpionfish unicorn fish. Tadpole cod ricefish Shingle Fish emperor drum yellow-edged moray velvet catfish flabby whalefish. Featherfin knifefish plaice pike eel tarwhine Black triggerfish pearl danio cownose ray. Merluccid hake, platy peamouth humuhumunukunukuapua'a barred danio. Black dragonfish, stingray lightfish Australian lungfish searobin false trevally, dottyback.Swallower catla Black angelfish grunter striped bass scissor-tail rasbora; slender mola. Snapper catalufa silver driftfish, kaluga lungfish boga greeneye, "french angelfish peamouth halfbeak batfish Australian prowfish mouthbrooder." Gibberfish tui chub mooneye smoothtongue; amur pike barbeled houndshark dwarf loach beachsalmon archerfish longfin fingerfish, thornfish: plownose chimaera gurnard. Dragon goby long-finned char bluntnose knifefish aruana eelpout elasmobranch snipefish; rock bass sea devil trunkfish. Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy. Waryfish, "lionfish;</p> 
     </div>
@@ -44,7 +46,9 @@
     </div>
     <p id="learnmore">Contact us to learn more</p>
 <!-- time to create the input, use div to add border, and control the position and padding -->
+<!-- div them I can add a border of underneath content -->
     <div id="grid">
+    <!-- the "action" in the form, can make the button turn into another webpage, though I don't know how it worked -->
     <form action="thanku.html" method="get">
         <p class="interact">Your Name</p>
         <input class="inputbar" type="text" placeholder="TYPE! YOUR! NAME! " required>
@@ -52,7 +56,7 @@
         <input class="inputbar" type="text" placeholder="TYPE! YOUR! EMAIL! " required>
         <p class="interact">Your Message</p>
         <textarea id="largeinput"></textarea>
-        <p class="interact" id="dulm" >Do you love me?</p>
+        <p id="dulm" >Do you love me?</p>
         Yes
         <input id="Yes" type="radio" name="1" value="2">
         No
@@ -68,7 +72,7 @@
     <footer>2024 &copy; Chuhong Feng</footer>
     </main>
 
-
+<!-- THIS HTML FILE IS VALIDATED -->
     
     
 </body>

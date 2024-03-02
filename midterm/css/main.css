@@ -7,15 +7,15 @@ body{
     background-color: rgb(212, 165, 209);
 }
 
-/* AFter I set body background, I control the main positon and its background */
+/* AFter I set body background, I can control the main positon and its background so that I can have a box to put left things into it*/
+
 main{
-    display: block;
     background-color: rgba(238, 219, 142, 0.842);
     width: 1024px;
     position: absolute;
     left: 16.6%;
 }
-/* absolute position can minus the unnecessary space */
+/* absolute position can minus the space where the thing at there*/
 /* so that I can adjust h1 position easily */
 h1{
     position: absolute;
@@ -27,16 +27,15 @@ h1{
 }
 
 /* easy part, make them horizontal and add some space between them */
-/* I use flex property, because I dont know why "display: inline" doesn't work */
-/* also I can use float property and set it width and padding to get the same effect */
+/* I use flex property, because I dont know why "display: inline" doesn't work. But it work before. */
+/* also I can use float property and set its width and padding to get the same effect */
 .neirong nav{
     display:flex;
     justify-content: space-around;
    font-size: 30px;
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-/* set border but not the last */
-
+/* set the right side border but not the last */
 .neirong .navi{
     border-right: 3px solid #b11b1b;
     padding:0px 120px;
@@ -47,10 +46,10 @@ h1{
     color: antiquewhite;
     
 }
-
-
 /* The property 
-.navi:last-child{border-right: none;} doesn't work  and I don't know why
+.navi:last-child{
+    border-right: none;
+} doesn't work  and I don't know why
  */
 #contact{
     border-right: none;
@@ -69,11 +68,10 @@ h1{
     padding: 10px;
 }
 
-/* shrink the image, also I can use <scale> property */
-/* float:left can make more space for text, also I can use 
- display:block 
- position absolute
- to add some space for text */
+/* shrink the image, also I can use <scale> property. But when I use <scale> the space didn't shrink, only the image */
+/* float:left can make more right side space for text, also I can use 
+ position: absolute
+ to add some space for text. after that I have to adjust the position of the text. That's not necessary */
 
 
  #squarefish{
@@ -107,7 +105,8 @@ h1{
 
 
 /* for this Interactive space
-I set the whole area first, and continualy add input bar */
+I set the whole area first, and then I add input bar */
+/* After this, it's just set the position of the content.*/
 #grid{
     margin:0 10px;
     padding: 10px;
@@ -165,5 +164,4 @@ footer{
     position:relative;
     width: 150px;
     left: 84.25%;
-
 }
