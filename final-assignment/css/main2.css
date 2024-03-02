@@ -18,6 +18,12 @@ header img{
     padding: 10px;
 }
 
+.mainnav{
+    overflow: auto;
+    width: 100%;
+}
+
+
 nav .navi{
     display: inline;
     font-size: 30px;
@@ -26,29 +32,48 @@ nav .navi{
     top:-50px;
 }
 
-nav a{
-    color: coral;
-    padding: 15px;
-    margin: 15px;
-}
 
-nav a:hover{
-    color: black;
-    background-color: rgb(241, 166, 4);
-    margin: 15px;
-    padding: 15px;
-} 
-
-nav a:focus{
-    color: red;
-}
 
 .serchbar{
-    display:block;
-    position: absolute;
-    scale: 150%;
-    left: 80%;
-    top: 80px;
-    border: 2px ridge rgb(123, 244, 96);
+
 }
 
+/* media time */
+
+@media only screen and (max-width:60em){
+    html{
+      font-size: 110%;
+      line-height: 1.5;
+      margin: 20px;
+    }
+
+    header nav img{
+        display: block;
+        position: relative;
+        background-color: rgb(241, 166, 4);
+        width: auto;
+        padding: 30px;
+        padding-bottom: 90px;
+        padding-right: 70%;
+        left: 5%px;
+
+    }
+
+    .mainnav>li{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    left: 0px;
+    padding: 2%;
+    }
+
+    .serchbar{
+        display:flex;
+        position: relative;
+        float: left;
+        border: 0;
+        margin: 0;
+        padding: 0;
+    }
+  }
