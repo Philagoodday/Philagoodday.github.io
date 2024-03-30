@@ -1,0 +1,19 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+main{
+    display: grid;
+}
+
+main> div:nth-of-type(even){
+    margin: 5px solid red;
+}
