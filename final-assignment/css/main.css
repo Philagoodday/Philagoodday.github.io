@@ -432,7 +432,7 @@ footer a{
     text-decoration: underline;
 }
 
-@media screen and (min-width: 650px){
+@media screen and (min-width: 760px){
     /* Styles applied for minimum width of 650px and over */
     
     *,
