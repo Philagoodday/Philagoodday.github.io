@@ -1,12 +1,4 @@
-*,
-*::after,
-*::before{
-    margin: 0;
-    padding: 0;
-    font-size: 20px;
-    text-decoration: none;
-    list-style-type: none;
-}
+
 
 body{
     font-family: "Open Sans", sans-serif;
@@ -18,18 +10,20 @@ header{
     background-color:#222;
     padding-top: 20px;
 }
+
 .imagelogo{
     background-color: #c78c06;
     margin: 0px 15px;
 }
 
+/* SET SIZE OF IMG */
 .imagelogo> img{
     padding-bottom: 40px;
     width: 14%;
     padding-top: 30px;
 }
 
-
+/* set flex , it's easy to change the layout of links from column to row */
 nav{
     display: flex;
     flex-direction:column;
@@ -52,6 +46,7 @@ nav > a:hover{
     background-color: #c78c06;
 }
 
+/* make home button background look like as same as the image background */
 nav > a:nth-of-type(1){
     background-color: #c78c06;
     color: #222;
@@ -61,12 +56,15 @@ nav > a:nth-of-type(1){
     margin-top: -2px;
 }
 
+/* conceal the gap between input and button */
 .searchbar{
     display: flex;
     flex-direction:row;
     justify-content: center;
     align-items: center;
 }
+
+/* change the size */
 .searchbar > input{
     width: 80%;
     height: 50px;
@@ -86,22 +84,9 @@ nav > a:nth-of-type(1){
 /* part2 */
 /* part2 */
 
-/* .home{
-    display: grid;
-    grid-template-columns: repeat(25 , 1fr);
-    grid-template-rows: repeat(29 , 1fr);
-}
-
-
-
-.home> img{
-    grid-column: 1/26;
-    grid-row: 1/30;
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-} */
-
+/* At first, I set the image as the background */
+/* .home as a div, I can display it as the grid */
+/* And put .banner beyond the image */
 .home{
     background-image:url(../images/main-banner.jpg);
     background-size: cover;
@@ -124,7 +109,8 @@ nav > a:nth-of-type(1){
 }
 
 
-
+/* set the layout in the banner */
+/* set them display as the  */
 .banner{
     background-color:#222222ab;
     display:flex;
@@ -171,6 +157,10 @@ nav > a:nth-of-type(1){
 <!-- part3 -->
 <!-- part3 -->
 <!-- part3 --> */
+
+/* i wanna keep About Us simple
+ there are only TWO elements in this div
+so I use flex to keep image, title and text verticle  */
 .aboutusdiv{
     background-color: #ffe6ac;
     padding-top: 15px;
@@ -199,6 +189,8 @@ nav > a:nth-of-type(1){
 <!-- part4 -->
 <!-- part4 --> */
 
+/* These five boxes are the same 
+so that I can control them at the same time by .ser1 */
 .ser1{
     
     border: 10px solid rgb(255, 255, 255);
@@ -214,7 +206,7 @@ nav > a:nth-of-type(1){
     padding-top: 10px;
     padding-bottom: 15px;
 }
-
+/* using flex to conceal the gap between the text and the arrow */
 .link1{
     display: flex;
     width: 90%;
@@ -243,6 +235,8 @@ nav > a:nth-of-type(1){
 /* part5 vision*/
 /* part5 vision*/
 /* part5 vision */
+
+/* using background-img to include the text */
 
 .vision{
     background-image: url(../images/vision.jpg);
@@ -433,7 +427,7 @@ footer a{
 }
 
 @media screen and (min-width: 760px){
-    /* Styles applied for minimum width of 650px and over */
+    /* Styles applied for minimum width of 760px and over */
     
     *,
     *::after,
@@ -460,7 +454,7 @@ footer a{
         margin: auto;
     }
     .imagelogo{
-        background-color: #ffffff00;
+        background-color: #222;
         margin: auto;
         border: 0;
         padding: 0 10px;
